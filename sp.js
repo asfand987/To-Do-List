@@ -14,8 +14,6 @@ function createList() {
   clearInput();
 
   dBtn.onclick = function() {deleteListItem(dBtn)};
-  //dBtn.addEventListener("click", deleteListItem(dBtn));
-
 }
 
 function clearInput() {
@@ -24,6 +22,5 @@ function clearInput() {
 
 function deleteListItem(e)
 {
-  console.log("testing");
   e.parentNode.parentNode.removeChild(e.parentNode)
 }

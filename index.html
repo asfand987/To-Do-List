@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <script src="sp.js"></script>
+</head>
+
 <body>
   <div class="mainTitle">
     <h1>To Do List</h1>
@@ -8,8 +12,12 @@
     <h2>Press X to remove</h2>
   </div>
   <div class="inputBox">
-    	<input id="userInput" type="text" placeholder="New item..." maxlength="27">
-      <button type="button" onclick="">Enter!</button>
+    <input id="userInput" type="text" placeholder="New item..." maxlength="27">
+    <button type="add" onclick="createList();">Enter</button>
+  </div>
+  <div class="row">
+    <ul id="list">
+    </ul>
   </div>
 </body>
 </html>

@@ -19,7 +19,7 @@ function createList() {
 function clearInput() {
     document.getElementById('userInput').value = '';
 }
-
+ 
 function deleteListItem(e)
 {
   e.parentNode.parentNode.removeChild(e.parentNode)
